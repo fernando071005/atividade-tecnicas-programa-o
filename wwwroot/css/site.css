@@ -1,18 +1,51 @@
-html {
-  font-size: 14px;
+*{
+  box-sizing: border-box;
 }
+.nome{
+  color: black;  
+  margin-left: 35%;
+  border: 4px ridge black;
+  width: 27%;
+  padding-left: 1%;
 
-@media (min-width: 768px) {
-  html {
-    font-size: 16px;
-  }
 }
-
-html {
-  position: relative;
-  min-height: 100%;
+.telefone{
+  color: black;
+  padding-top: 2%;
 }
-
-body {
-  margin-bottom: 60px;
+.exp{
+  padding-top: 3%;
+}
+.apresentacao{
+  padding-top: 3%;
+}
+.expe{ 
+  padding-top: 2%;
+}
+.educação{
+  padding-top: 3px;
+}
+.edc{
+  padding-top: 2%
+}
+.fundo{ 
+  background-color: aquamarine;
+}
+.dv1{
+  
+  padding-left: 1%;
+  width: 30%; 
+}
+.dv2{
+  border: 3px dotted black;
+  padding-left: 1%;
+  width: 30%; 
+}
+.dv3{
+  border: 3px dotted black;
+  padding-left: 1%;
+  width: 30%; 
+}
+.navbar-brand{
+  color: red;
 }
